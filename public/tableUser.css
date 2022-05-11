@@ -1,0 +1,5 @@
+.edit-user:hover,
+.exclude-user:hover
+{
+    cursor: pointer;
+}
