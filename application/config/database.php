@@ -80,6 +80,7 @@ $db['default'] = array(
 	'password' => 'C6G$s3&h1t',
 	'database' => 'padaria_barba',
 	'dbdriver' => 'mysqli',
+	'port' 	   => 3306,
 	'dbprefix' => '',
 	'pconnect' => FALSE,
 	'db_debug' => (ENVIRONMENT !== 'production'),
