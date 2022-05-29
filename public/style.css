@@ -89,12 +89,12 @@ main
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
 }
 .left-menu .button.active,
-.left-menu .button.active:hover
+.left-menu .button.active:first-child:hover
 {
     background: blueviolet;
     color: #fff;
 }
-.left-menu .button:hover ion-icon
+.left-menu .button :hover ion-icon
 {
     color: blueviolet;
 }
